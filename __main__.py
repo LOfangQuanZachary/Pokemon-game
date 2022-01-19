@@ -1,5 +1,6 @@
 print("hello world")
 print("pokemon game timeeee")
+# woah
 class pokemon:
     def __init__(self, healthPoints, defense, spDefense, attack, spAttack, moveOne, moveTwo, moveThree):
         self.healthPoints = healthPoints
@@ -10,3 +11,4 @@ class pokemon:
         self.moveOne = moveThree
         self.moveTwo = moveThree
         self.moveThree = moveThree
+
