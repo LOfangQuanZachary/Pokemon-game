@@ -10,10 +10,6 @@ pokemonBall = 1
 
 def pokemonCatchChance(wildPokemonStatusCondition, wildPokemonHealth, pokemonBall):
     catchChance = 100
-    wildPokemonStatusCondition = False
-    wildPokemonHealth = 35
-    pokemonBall = 1
-    catchChance = 100
     if wildPokemonStatusCondition == True:
         catchChance = catchChance + 10
     catchChance = catchChance + (pokemonBall*5)
@@ -29,4 +25,4 @@ def pokemonCatchChance(wildPokemonStatusCondition, wildPokemonHealth, pokemonBal
         elif n < catchChance:
             print("the pokemon has been caught!")
     print(catchChance)
-pokemonCatchChance()
+pokemonCatchChance(True, 80, 3)
