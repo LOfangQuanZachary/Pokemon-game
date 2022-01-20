@@ -7,8 +7,9 @@ import random
 wildPokemonStatusCondition = False
 wildPokemonHealth = 35
 pokemonBall = 1
-catchChance = 100
-def pokemonCatchChance():
+
+def pokemonCatchChance(wildPokemonStatusCondition, wildPokemonHealth, pokemonBall):
+    catchChance = 100
     wildPokemonStatusCondition = False
     wildPokemonHealth = 35
     pokemonBall = 1
