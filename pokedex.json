@@ -493,9 +493,9 @@
         "sp_def": 55,
         "spd": 65
     },
-    "NIDORAN&9792;": {
+    "NIDORAN_FEMALE": {
         "ntl_pokedex": 29,
-        "name": "Nidoran&9792;",
+        "name": "Nidoran♀",
         "types": [
             "poison"
         ],
@@ -548,9 +548,9 @@
         "sp_def": 85,
         "spd": 76
     },
-    "NIDORAN&9794;": {
+    "NIDORAN_MALE": {
         "ntl_pokedex": 32,
-        "name": "Nidoran&9794;",
+        "name": "Nidoran♂",
         "types": [
             "poison"
         ],
